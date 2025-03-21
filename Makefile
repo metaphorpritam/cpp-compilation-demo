@@ -44,7 +44,7 @@ $(DEBUG_EXECUTABLE): $(OBJECTS)
 clean:
 	rm -rf $(OBJ_DIR) $(BIN_DIR)
 
-# Show object file contents
+# Show object file contents: math_utils.o
 .PHONY: objdump
 objdump: $(OBJECTS)
 	@echo "Displaying symbols in math_utils.o:"
